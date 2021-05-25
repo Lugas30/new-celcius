@@ -1,0 +1,14 @@
+.social-icons {
+  color: #313437;
+  background-color: #fff;
+  text-align: center;
+}
+
+.social-icons i {
+  font-size: 20px;
+  display: inline-block;
+  color: #000000;
+  margin: 0 5px;
+  text-align: center;
+}
+

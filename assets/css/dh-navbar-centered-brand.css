@@ -1,0 +1,22 @@
+.navbar-toggle {
+  z-index: 3;
+}
+
+.navbar-default {
+  background-color: #ffffff;
+  background-image: none;
+}
+
+.navbar-brand-centered {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  display: block;
+  width: 160px;
+  text-align: center;
+}
+
+.navbar > .container .navbar-brand-centered, .navbar > .container-fluid .navbar-brand-centered {
+  margin-left: -80px;
+}
+
