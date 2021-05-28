@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/choose-color.css">
     <link rel="stylesheet" href="assets/css/choose-size.css">
     <link rel="stylesheet" href="assets/css/dh-navbar-centered-brand.css">
+    <link rel="stylesheet" href="assets/css/filter-sort.css">
     <link rel="stylesheet" href="assets/css/g-style-text-input.css">
+    <link rel="stylesheet" href="assets/css/mega-dropdown.css">
     <link rel="stylesheet" href="assets/css/search.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/steps-progressbar.css">
@@ -31,7 +32,68 @@
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="padding-left: 0px;">MENS</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link catogary dropdown" id="navbarDropdown" href="#" style="padding-left: 0px;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENS</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid px-5">
+                                <div class="row" style="width: 100%;">
+                                    <div class="col-md-2 col-lg-2">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-items"><a class="nav-link active" href="#">Apparel</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">New arrival</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Hoodies &amp; Sweatshirt</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Jackets &amp; Coats</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Blazer &amp; Suits</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">T-shirt &amp; Tanktops</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Shirt</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Polos</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Cardigan &amp; Sweater</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Trousers &amp; Chinos</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Joggers &amp; Sweatpants</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Jeans</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Shorts</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Underwear</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2 col-lg-2">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-items"><a class="nav-link active" href="#">Accessories</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Headwear</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Eyewear</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Bags</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Stuff</a></li>
+                                            <li class="nav-items"><a class="nav-link active" href="#">Footwear</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Socks</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Sandals</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Shoes</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2 col-lg-2">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-items"><a class="nav-link active" href="#">Campaign</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Speed Rabel</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">New Legacy</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Ramadhan Kareem</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Christmas Eve</a></li>
+                                            <li class="nav-items"><a class="nav-link active" href="#">View all</a></li>
+                                            <li class="nav-items sale-dropdown"><a class="text-danger nav-link" href="#">Special price</a></li>
+                                            <li class="nav-items"><a class="nav-link active" href="index.html">Mens page</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 col-lg-3">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-items"><a class="nav-link active" href="#"><img class="dropdown-img" src="prod5.jpg"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 col-lg-3">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-items"><a class="nav-link active" href="#"><img class="dropdown-img" src="prod5.jpg"></a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">KIDS</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">COLLECTION</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="content.html">CONTENT</a></li>
@@ -79,10 +141,97 @@
                 <h1>Celcius</h1>
             </div>
             <div class="collection-header-filters">
-                <ul class="collection-header-filters-content">
-                    <li class="toogle-filter">FILTER</li>
-                    <li class="toogle-sortby">SORT BY</li>
-                </ul>
+                <div class="filter-grid">
+                    <ul>
+                        <li class="nav-item dropdown no-arrow"><a id="alertsDropdown" class="sortBtn" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sort by</a>
+                            <div class="dropdown-menu border-0 dropdown-menu-right" aria-labelledby="">
+                                <div class="sortFrame">
+                                    <ul>
+                                        <li><a class="sortItems" href="#">Price low to high</a></li>
+                                        <li><a class="sortItems" href="#">Price high to low</a></li>
+                                        <li><a class="sortItems" href="#">Product name A-Z</a></li>
+                                        <li><a class="sortItems" href="#">Product name Z-A</a></li>
+                                        <li><a class="sortItems pb-2" href="#">Top sellers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown megamenu"><a id="megamneu" class="filterBtn" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter</a>
+                            <div class="dropdown-menu border-0 p-0 m-0" aria-labelledby="megamneu">
+                                <div class="contain-frame">
+                                    <div class="row bg-white rounded-0 m-0 shadow-sm">
+                                        <div class="col">
+                                            <div class="filter-list-frame">
+                                                <h1 class="filter-header">FILTER</h1>
+                                                <div class="row filter-padd">
+                                                    <div class="col-lg-3 mb-4">
+                                                        <div class="type">
+                                                            <h1 class="text-uppercase pb-3">TYPE</h1>
+                                                            <div class="filter-list">
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Basic</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Graphic</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Long Sleeve</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Short Sleeve</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Oversize</label></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 mb-4">
+                                                        <div class="type">
+                                                            <h1 class="text-uppercase pb-3">COLOUR</h1>
+                                                            <div class="filter-list">
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">White</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Black</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Yellow</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Green</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Blue</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Red</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Grey</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Beige</label></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 mb-4">
+                                                        <div class="type">
+                                                            <h1 class="text-uppercase pb-3">SIZE</h1>
+                                                            <div class="filter-list">
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">S</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">M</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">L</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">XL</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">ALL SIZE</label></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 mb-4">
+                                                        <div class="type">
+                                                            <h1 class="text-uppercase pb-3">PRICE</h1>
+                                                            <div class="filter-list">
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Up to IDR 100000</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Up to IDR 150000</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Up to IDR 200000</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Up to IDR 250000</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Up to IDR 300000</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Up to IDR 400000</label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Up to IDR 500000</label></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col pb-2 btn-pos"><a class="btn btn-clear-filter" role="button" href="index.html">&nbsp;&nbsp;<i class="fa fa-trash-o"></i>&nbsp; &nbsp;CLEAR ALL&nbsp;&nbsp;</a></div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col pb-2 btn-pos"><a class="btn btn-type1-small" role="button" href="index.html">&nbsp; SEE RESULT&nbsp;&nbsp;</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -90,7 +239,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
-                    <a href="detail-product-1.html">
+                    <a class="link-product" href="detail-product-1.html">
                         <div class="product-wrapper"><img class="front-product" src="assets/img/product/21B.jpg" loading="lazy"><img class="img-top front-product" src="assets/img/product/21C.jpg" loading="lazy">
                             <div class="product-card">
                                 <h1 class="product-card-tile">Celcius skull logo patch</h1><span class="product-card-price">Rp129.000</span></div>
@@ -98,7 +247,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="detail-product-1.html">
+                    <a class="link-product" href="detail-product-1.html">
                         <div class="product-wrapper"><img class="front-product" src="assets/img/product/22A.jpg" loading="lazy"><img class="img-top front-product" src="assets/img/product/22F.jpg" loading="lazy">
                             <div class="product-card">
                                 <h1 class="product-card-tile">Celcius skull logo patch</h1><span class="product-card-price">Rp129.000</span></div>
@@ -106,7 +255,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="#">
+                    <a class="link-product" href="#">
                         <div class="product-wrapper"><img class="front-product" src="assets/img/product/27C.jpg" loading="lazy"><img class="img-top front-product" src="assets/img/product/27B.jpg" loading="lazy">
                             <div class="product-card">
                                 <h1 class="product-card-tile">Celcius skull logo patch</h1><span class="product-card-price">Rp129.000</span></div>
@@ -172,6 +321,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/dropdown-nav.js"></script>
     <script src="assets/js/qty-incriment.js"></script>
     <script src="assets/js/search-navbar.js"></script>
     <script src="assets/js/side-cart.js"></script>

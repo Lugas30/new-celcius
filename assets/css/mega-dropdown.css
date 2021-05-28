@@ -1,0 +1,91 @@
+/* -- Navbar & Dropdown -- */
+
+.navbar .dropdown-menu div[class*="col"] {
+  margin-bottom: 10px;
+}
+
+.navbar .dropdown-menu {
+  border: none;
+  background-color: rgb(255,255,255) !important;
+}
+
+@media (max-width: 992px) {
+  .navbar .dropdown-menu {
+    border: none;
+    background-color: rgb(255,255,255) !important;
+    margin-top: 8px;
+    height: auto;
+  }
+}
+
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar .nav-items {
+  margin: 3px;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.navbar .dropdown {
+  position: static;
+}
+
+.navbar .dropdown-menu {
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 45px;
+}
+
+.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+  display: block !important;
+  visibility: visible;
+  opacity: 1;
+}
+
+.navbar .dropdown-menu {
+  background-color: #fff;
+}
+
+a.i {
+  margin-top: -25px;
+  font-weight: 400;
+  color: white;
+}
+
+a.catogary {
+  color: white;
+}
+
+a.nav-link.active {
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+}
+
+.dropdown-img {
+  width: 100%;
+  height: auto;
+}
+
+.sale-dropdown a {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sale-dropdown a:hover {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.carthov {
+  color: black;
+}
+
+.carthov:hover {
+  color: rgb(0,0,0);
+}
+

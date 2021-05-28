@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/choose-color.css">
     <link rel="stylesheet" href="assets/css/choose-size.css">
     <link rel="stylesheet" href="assets/css/dh-navbar-centered-brand.css">
+    <link rel="stylesheet" href="assets/css/filter-sort.css">
     <link rel="stylesheet" href="assets/css/g-style-text-input.css">
+    <link rel="stylesheet" href="assets/css/mega-dropdown.css">
     <link rel="stylesheet" href="assets/css/search.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/steps-progressbar.css">
@@ -31,7 +32,68 @@
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html" style="padding-left: 0px;">MENS</a></li>
+                    <li class="nav-item dropdown" role="presentation"><a class="nav-link catogary" id="navbarDropdown" href="index.html" style="padding-left: 0px;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENS</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid px-5">
+                                <div class="row" style="width: 100%;">
+                                    <div class="col-md-2 col-lg-2">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-items"><a class="nav-link active" href="#">Apparel</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">New arrival</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Hoodies &amp; Sweatshirt</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Jackets &amp; Coats</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Blazer &amp; Suits</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">T-shirt &amp; Tanktops</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Shirt</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Polos</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Cardigan &amp; Sweater</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Trousers &amp; Chinos</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Joggers &amp; Sweatpants</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Jeans</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Shorts</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Underwear</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2 col-lg-2">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-items"><a class="nav-link active" href="#">Accessories</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Headwear</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Eyewear</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Bags</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Stuff</a></li>
+                                            <li class="nav-items"><a class="nav-link active" href="#">Footwear</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Socks</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Sandals</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Shoes</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2 col-lg-2">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-items"><a class="nav-link active" href="#">Campaign</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Speed Rabel</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">New Legacy</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Ramadhan Kareem</a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#">Christmas Eve</a></li>
+                                            <li class="nav-items"><a class="nav-link active" href="#">View all</a></li>
+                                            <li class="nav-items sale-dropdown"><a class="text-danger nav-link" href="#">Special price</a></li>
+                                            <li class="nav-items"><a class="nav-link active" href="index.html">Mens page</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 col-lg-3">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-items"><a class="nav-link active" href="#"><img class="dropdown-img" src="prod5.jpg"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 col-lg-3">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-items"><a class="nav-link active" href="#"><img class="dropdown-img" src="prod5.jpg"></a></li>
+                                            <li class="nav-items"><a class="nav-link i" href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index-kids.html">KIDS</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">COLLECTION</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="content.html">CONTENT</a></li>
@@ -85,8 +147,8 @@
                 <h1>New Legacy</h1>
             </div>
             <div class="hero-btn">
-                <div class="btn-type3"><a class="btn" role="button" href="index.html">SHOP THE COlLECTION</a></div>
-                <div class="btn-type3"><a class="btn" role="button" href="index.html">VIEW THE LOOKBOOK</a></div>
+                <div class="btn-type3"><a class="btn" role="button" href="collection-campaign.html">SHOP THE COlLECTION</a></div>
+                <div class="btn-type3"><a class="btn" role="button" href="content-lookbook.html">VIEW THE LOOKBOOK</a></div>
             </div>
         </div>
     </div>
@@ -240,6 +302,7 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/dropdown-nav.js"></script>
     <script src="assets/js/qty-incriment.js"></script>
     <script src="assets/js/search-navbar.js"></script>
     <script src="assets/js/side-cart.js"></script>

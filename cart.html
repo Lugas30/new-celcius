@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/choose-color.css">
     <link rel="stylesheet" href="assets/css/choose-size.css">
     <link rel="stylesheet" href="assets/css/dh-navbar-centered-brand.css">
+    <link rel="stylesheet" href="assets/css/filter-sort.css">
     <link rel="stylesheet" href="assets/css/g-style-text-input.css">
+    <link rel="stylesheet" href="assets/css/mega-dropdown.css">
     <link rel="stylesheet" href="assets/css/search.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/steps-progressbar.css">
@@ -25,6 +26,11 @@
 </head>
 
 <body>
+    <div class="all-header">
+        <div class="container-fluid">
+            <h1 class="all-header-title">Cart</h1>
+        </div>
+    </div>
     <div>
         <div class="container-fluid">
             <div class="row">
@@ -49,12 +55,14 @@
                                 <div class="pb-2">
                                     <div class="input-group"><span class="input-group-btn"><button class="btn btn-minus btn-number quantity-left-minus" type="button" data-type="minus" data-field=""><i class="icon ion-minus-round"></i></button></span><input type="text" id="quantity"
                                             class="form-control input-number" value="1" min="1" max="5"><span class="input-group-btn"><a class="btn btn-plus btn-number quantity-right-plus" role="button" data-type="plus" data-field=""><i class="icon ion-plus-round"></i></a></span></div>
-                                </div><a class="btn btn-type2-small mr-2" role="button" href="index.html" style="padding: 2px;padding-top: 3px;"><i class="la la-heart-o"></i></a><a class="btn btn-type2-small" role="button" href="index.html" style="padding: 2px;padding-top: 3px;"><i class="la la-close"></i></a></div>
+                                </div>
+                                <div class="d-lg-flex justify-content-lg-end btn-type3 py-2"><a class="btn" role="button" href="index.html" style="font-size: 10;">dELETE iTEM</a></div>
+                            </div>
                         </div>
                         <hr>
                         <div class="row">
                             <div class="col-md-3 col-lg-4"><img class="frame-img py-2" src="assets/img/product/24E.jpg"></div>
-                            <div class="col itemlist-desc py-2"><a class="prod-title" href="#go to product">Celcius Speed Rabel Tees Yellow</a>
+                            <div class="col itemlist-desc py-2"><a class="prod-title" href="#go to product">Celcius skull logo patch<br></a>
                                 <div class="price-block">
                                     <p class="disc-price-item-list pr-2"><span style="text-decoration: line-through;">IDR 249.000</span></p>
                                     <p class="normal-price-item-list">IDR 145.000</p>
@@ -66,12 +74,14 @@
                                     <p>SKU : IL2203B</p>
                                 </div>
                                 <div class="price-item-list">
-                                    <p class="normal-price-item-list">TOTAL : IDR 145.000</p>
+                                    <p class="normal-price-item-list">Total : IDR 145.000</p>
                                 </div>
                                 <div class="pb-2">
                                     <div class="input-group"><span class="input-group-btn"><button class="btn btn-minus btn-number quantity-left-minus" type="button" data-type="minus" data-field=""><i class="icon ion-minus-round"></i></button></span><input type="text" id="quantity"
                                             class="form-control input-number" value="1" min="1" max="5"><span class="input-group-btn"><a class="btn btn-plus btn-number quantity-right-plus" role="button" data-type="plus" data-field=""><i class="icon ion-plus-round"></i></a></span></div>
-                                </div><a class="btn btn-type2-small mr-2" role="button" href="index.html" style="padding: 2px;padding-top: 3px;"><i class="la la-heart-o"></i></a><a class="btn btn-type2-small" role="button" href="index.html" style="padding: 2px;padding-top: 3px;"><i class="la la-close"></i></a></div>
+                                </div>
+                                <div class="d-lg-flex justify-content-lg-end btn-type3 py-2"><a class="btn" role="button" href="index.html" style="font-size: 10;">dELETE iTEM</a></div>
+                            </div>
                         </div>
                         <hr>
                         <hr>
@@ -85,7 +95,7 @@
                         <div class="py-2">
                             <p class="py-2"><em>If you have a coupon code, please enter it in the box below</em><br></p>
                         </div>
-                        <div class="input-button-coupon clean-block-20"><div class="group">
+                        <div class="input-button-coupon clean-block-20 pb-3"><div class="group">
     <input class="ginput" type="text" required>
     <label class="glabel">ENTER THE COUPON</label>
 </div>
@@ -96,12 +106,14 @@
                     <div class="header-box">
                         <h1>ORDER SUMMARY</h1>
                     </div>
-                    <div class="px-4 py-3"><ul class="list-unstyled mb-4">
-    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Order Subtotal </strong><strong>IDR 439.000</strong></li>
-    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping</strong><strong>IDR 0</strong></li>
-    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Discount</strong><strong>IDR 0</strong></li>
-    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong><strong class="total-price-sum">IDR 439.000</strong></li>
-</ul></div>
+                    <div class="px-4 py-3 sum-conten">
+                        <ul class="list-unstyled mb-4">
+                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Order&nbsp;Subtotal<br></strong><strong>IDR&nbsp;439.000<br></strong></li>
+                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping<br></strong><strong>IDR 0<br></strong></li>
+                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Discount<br></strong><strong>IDR 0<br></strong></li>
+                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total<br></strong><strong class="total-price-sum">IDR&nbsp;439.000<br></strong></li>
+                        </ul>
+                    </div>
                     <div class="text-center pb-5"><a class="btn btn-type5" role="button" href="login-as-guest.html">NEXT TO SHIPPING</a></div>
                 </div>
             </div>
@@ -109,6 +121,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/dropdown-nav.js"></script>
     <script src="assets/js/qty-incriment.js"></script>
     <script src="assets/js/search-navbar.js"></script>
     <script src="assets/js/side-cart.js"></script>

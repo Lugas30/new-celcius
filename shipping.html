@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/choose-color.css">
     <link rel="stylesheet" href="assets/css/choose-size.css">
     <link rel="stylesheet" href="assets/css/dh-navbar-centered-brand.css">
+    <link rel="stylesheet" href="assets/css/filter-sort.css">
     <link rel="stylesheet" href="assets/css/g-style-text-input.css">
+    <link rel="stylesheet" href="assets/css/mega-dropdown.css">
     <link rel="stylesheet" href="assets/css/search.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/steps-progressbar.css">
@@ -25,6 +26,11 @@
 </head>
 
 <body>
+    <div class="all-header">
+        <div class="container-fluid">
+            <h1 class="all-header-title">Shipping Detail</h1>
+        </div>
+    </div>
     <div>
         <div class="container-fluid">
             <div class="row">
@@ -93,19 +99,21 @@
                     </div>
                     <div class="px-4 py-3">
                         <ul class="list-unstyled mb-4">
-                            <li class="d-flex justify-content-between py-3 border-bottom"><span>Graphic Embro T-shirt Yellow<br><span style="font-size: 14px;">Yellow (S) x 2 , weight : 600 gr , IL2203B<br></span></span><span><strong>IDR 290.000</strong><br></span></li>
-                            <li class="d-flex justify-content-between py-3 border-bottom"><span>Graphic Embro T-shirt Yellow<br><span style="font-size: 14px;">Yellow (S) x 2 , weight : 300 gr ,&nbsp;IL2203B<br></span></span><span><strong>IDR 145.000</strong><br></span></li>
+                            <li class="d-flex justify-content-between py-3 border-bottom"><span>Graphic Embro T-shirt Yellow<br><span style="font-size: 12px;">Yellow (S) x 2 , weight : 600 gr , IL2203B<br></span></span><span><strong>IDR 290.000</strong><br></span></li>
+                            <li class="d-flex justify-content-between py-3 border-bottom"><span>Graphic Embro T-shirt Yellow<br><span style="font-size: 12px;">Yellow (S) x 2 , weight : 300 gr ,&nbsp;IL2203B<br></span></span><span><strong>IDR 145.000</strong><br></span></li>
                         </ul>
                     </div>
                     <div class="header-box">
                         <h1>ORDER SUMMARY</h1>
                     </div>
-                    <div class="px-4 py-3"><ul class="list-unstyled mb-4">
-    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Order Subtotal </strong><strong>IDR 439.000</strong></li>
-    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping</strong><strong>IDR 20.000</strong></li>
-    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Discount</strong><strong>IDR 0</strong></li>
-    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong><strong class="total-price-sum">IDR 459.000</strong></li>
-</ul></div>
+                    <div class="px-4 py-3 sum-conten">
+                        <ul class="list-unstyled mb-4">
+                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Order&nbsp;Subtotal<br></strong><strong>IDR&nbsp;439.000<br></strong></li>
+                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping<br></strong><strong>IDR 0<br></strong></li>
+                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Discount<br></strong><strong>IDR 0<br></strong></li>
+                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total<br></strong><strong class="total-price-sum">IDR&nbsp;439.000<br></strong></li>
+                        </ul>
+                    </div>
                     <div class="pos-btn"><a class="btn btn-type5" role="button" href="midtrans.html">NEXT TO PAYMENT</a></div>
                 </div>
             </div>
@@ -113,6 +121,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/dropdown-nav.js"></script>
     <script src="assets/js/qty-incriment.js"></script>
     <script src="assets/js/search-navbar.js"></script>
     <script src="assets/js/side-cart.js"></script>

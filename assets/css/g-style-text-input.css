@@ -28,13 +28,13 @@
 }
 
 .glabel {
-  color: rgb(0, 0, 0);
-  font-size: 16px;
-  font-weight: 600;
+  color: rgb(25,25,25);
+  font-size: 12px;
   position: absolute;
   pointer-events: none;
   top: 10px;
   transition: 0.2s ease all;
+  font-weight: inherit;
 }
 
 .ginput:focus ~ .glabel, .ginput:valid ~ .glabel {
