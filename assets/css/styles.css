@@ -193,7 +193,7 @@ button:focus {
 }
 
 .btn-type3 .btn {
-  font-size: 11px;
+  font-size: 9px;
 }
 
 @media (max-width: 768px) {
@@ -344,11 +344,27 @@ button:focus {
 }
 
 .site-footer-copyright {
+  text-align: center;
+  color: #979797;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.site-footer-copyright-center {
+  text-align: center;
+  color: #979797;
+  width: 100%;
 }
 
 .footer-subs span {
   display: block;
   padding-left: 10px;
+}
+
+.head-sub-foot span {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 /* -- Detail Product -- */
