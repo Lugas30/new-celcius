@@ -250,6 +250,7 @@ button:focus {
   letter-spacing: .03em;
   position: relative;
   text-align: justify;
+  font-family: georgia;
 }
 
 .featured-content_text:after {
