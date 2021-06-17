@@ -945,3 +945,77 @@ button:focus {
   padding-bottom: 10px;
 }
 
+/* -- News -- */
+
+.container-news {
+  padding: 0px 200px 0px;
+}
+
+@media (max-width: 768px) {
+  .container-news {
+    padding: 0px 50px 0px;
+  }
+}
+
+.news-head {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.news-detail-header {
+  font-size: 26px;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .news-detail-header {
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+  }
+}
+
+.news-date {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .news-date {
+    font-size: 12px;
+  }
+}
+
+.no-event {
+  text-align: center;
+  padding: 60px;
+}
+
+.no-event span {
+  font-size: 26px;
+  text-align: center;
+}
+
+/* -- Collection Campaign -- */
+
+.collection-img-title-link {
+  font-family: georgia;
+  display: flex;
+}
+
+.collection-item-link {
+  padding-top: 7.5px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 0px;
+}
+
+.carousel-control-prev {
+  left: 30px;
+}
+
+.carousel-control-next {
+  right: 30px;
+}
+
