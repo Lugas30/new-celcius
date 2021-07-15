@@ -23,13 +23,6 @@
   padding-bottom: 0px;
 }
 
-.navbar .nav-items {
-  margin: 3px;
-  padding-top: 5px;
-  font-size: 10px;
-  vertical-align: middle;
-}
-
 .navbar .dropdown {
   position: static;
 }
@@ -38,7 +31,7 @@
   width: 100%;
   left: 0;
   right: 0;
-  top: 45px;
+  top: 44px;
 }
 
 .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
@@ -49,14 +42,6 @@
 
 .navbar .dropdown-menu {
   background-color: #fff;
-}
-
-a.catogary {
-}
-
-.nav-links {
-  font-size: 12px;
-  font-family: georgia;
 }
 
 .nav-links:hover {
@@ -92,5 +77,37 @@ a.nav-links.active {
 
 .coll-nav-list {
   padding: 5px;
+}
+
+/* -- Collection Campaign -- */
+
+.collection-img-title-link {
+  font-family: georgia;
+  display: flex;
+}
+
+.collection-item-link {
+  padding-top: 7.5px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 0px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+}
+
+.carousel-control-prev {
+  left: 30px;
+}
+
+.carousel-control-next {
+  right: 30px;
+}
+
+.content-inline {
+  display: flex;
 }
 

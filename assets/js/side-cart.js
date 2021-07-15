@@ -1,10 +1,10 @@
 
-function openNav() {
-  document.getElementById("mySidenav").style.width = "300px";
+function openCart() {
+  document.getElementById("sideCart").style.width = "350px"; 
 }
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+function closeCart() {
+  document.getElementById("sideCart").style.width = "0"; 
 }
 
    
