@@ -3,7 +3,7 @@
   position: sticky;
   width: 100%;
   top: 0;
-  z-index: 3;
+  z-index: 100;
 }
 
 .site-header__contents {
@@ -15,6 +15,7 @@
   letter-spacing: .033em;
   padding: .75rem;
   z-index: 1;
+  height: 61px;
 }
 
 @media (min-width: 576px) {
@@ -70,10 +71,14 @@
   font-size: 11px;
 }
 
+.site-header__parent-span:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 .site-header__logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 @media (max-width: 300px) {
