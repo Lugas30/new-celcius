@@ -1,7 +1,52 @@
 /* -- Filter & Sort grid -- */
 
-.filter-warpping {
+.filter-product {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
 }
+
+.filter-product-header {
+  padding: 25px 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.filter-product-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.filter-product-content {
+  padding: 20px;
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.filter-product-subtitle {
+  font-weight: 500;
+}
+
+.filter-items {
+  padding: 3px;
+}
+
+.filter-items-link {
+  text-decoration: none;
+}
+
+/* sampe sini */
 
 .showing {
   font-size: 14px;
@@ -12,22 +57,18 @@
   margin-left: 10px;
 }
 
-.contain-frame {
-  margin-left: 10px;
-}
-
-.filter-grid {
+.collection-header-filter-grid {
   display: inline-block;
   float: right;
 }
 
 @media (max-width: 576px) {
-  .filter-grid {
+  .collection-header-filter-grid {
     display: block;
   }
 }
 
-.filter-grid ul li {
+.collection-header-filter-grid ul li {
   display: flex;
   float: left;
   padding: 5px 0px 5px 15px;
@@ -185,17 +226,5 @@
   .btn-pos {
     text-align: center;
   }
-}
-
-.acount-filterBtn {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  font-size: 14px;
-}
-
-.acount-filterBtn:hover {
-  text-decoration: none;
-  color: rgb(225,225,225);
 }
 

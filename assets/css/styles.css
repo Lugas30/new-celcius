@@ -196,7 +196,7 @@ p, a, span, label, ul, button, td, th {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 1;
 }
 
 .product-wrapper:hover .img-top {
@@ -494,7 +494,6 @@ p, a, span, label, ul, button, td, th {
   flex-wrap: wrap;
   position: sticky;
   top: 3.75rem;
-  z-index: 99;
   background-color: #fff;
   padding-bottom: .3rem;
   vertical-align: middle;
