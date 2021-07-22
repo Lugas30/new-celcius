@@ -487,6 +487,10 @@ p, a, span, label, ul, button, td, th {
   font-weight: 300;
 }
 
+.lookbook-img {
+  padding: 10px;
+}
+
 /* -- Header Collection -- */
 
 .collection-header {
