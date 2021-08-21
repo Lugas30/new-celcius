@@ -67,7 +67,7 @@
 
 .site-header__parent-span {
   position: relative;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 11px;
 }
 
@@ -79,6 +79,12 @@
 .site-header__logo {
   display: block;
   margin: auto;
+}
+
+.main-logo {
+  vertical-align: middle;
+  width: auto;
+  height: 25px;
 }
 
 @media (max-width: 300px) {
