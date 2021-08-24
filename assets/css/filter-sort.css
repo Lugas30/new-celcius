@@ -57,6 +57,10 @@
   margin-left: 10px;
 }
 
+.collection-header {
+  z-index: 99;
+}
+
 .collection-header-filter-grid {
   display: inline-block;
   float: right;
@@ -100,7 +104,7 @@
 .sortBtn {
   text-decoration: none;
   color: black;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 11px;
   text-transform: uppercase;
 }
